@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>A Programmer-Defined sqaure Function</title>
+    <style type="text/css">
+        p {margin: 0;}
+    </style>
+
+    <script>
+        document.writeln("<h1>Sqaure the numbers from 1 to 10</h1>");
+
+        // sqaure the numbers from 1 to 10
+        for (var x = 1; x <= 10; ++x)
+            document.writeln("<p>The sqaure of " + x + " is " +
+                sqaure(x) + "</p>");
+        // The following sqaure function definition's body is executed 
+        // only when the function is called explicitly as in line 17
+        function sqaure(y) {
+            return y * y;
+        } //end function sqaure
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
